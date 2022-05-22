@@ -1,0 +1,15 @@
+
+
+npm install mongoose-unique-validator (pour avoir email unique)
+
+npm install bcrypt
+
+npm install jsonwebtoken
+
+npm install multer
+
+
+
+
+
+revoir le dossier things.js dans controller
