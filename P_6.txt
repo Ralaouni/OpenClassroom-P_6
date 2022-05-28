@@ -13,3 +13,6 @@ npm install multer
 
 
 revoir le dossier things.js dans controller
+
+faire un readme avec les indications pour installer l'environnement et pour le lancer !
+
