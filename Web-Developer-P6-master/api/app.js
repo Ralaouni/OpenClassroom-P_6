@@ -4,7 +4,7 @@ const app = express();
 
 const mongoose = require('mongoose');
 
-const sauceRoutes = require ('./routes/sauce.js')
+const sauceRoutes = require ('./routes/sauce')
 const userRoutes = require ('./routes/user')
 
 mongoose.connect('mongodb+srv://Ghetto:Gaetanass42!@cluster0.e4tgk.mongodb.net/?retryWrites=true&w=majority',
@@ -22,8 +22,9 @@ app.use((req, res, next) => {
     next();
 });
 
-// app.use('/api/sauce', sauceRoutes)
-// app.use('/api/auth', userRoutes)
+
+app.use('/api/sauce', sauceRoutes)
+app.use('/api/auth', userRoutes)
 
 
 module.exports = app;

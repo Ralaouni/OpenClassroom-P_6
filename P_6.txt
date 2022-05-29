@@ -1,4 +1,7 @@
 
+npm install node
+
+npm install express
 
 npm install mongoose-unique-validator (pour avoir email unique)
 
