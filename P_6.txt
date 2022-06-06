@@ -1,21 +1,28 @@
+1 installer l'environnement
 
-npm install node
+npm install node (pour le serveur)
 
 npm install express
 
 npm install mongoose-unique-validator (pour avoir email unique)
 
-npm install bcrypt
+npm install bcrypt ( pour crypter le mot de passe)
 
-npm install jsonwebtoken
+npm install jsonwebtoken ( pour les token de registration )
 
-npm install multer
-
-
+npm install multer ( pour les fichiers images )
 
 
 
-revoir le dossier things.js dans controller
+2. Lancer l'environnement
+
+Dans le dossier P_6bis/api, lancer npm start qui va lancer ng serve pour avoir le front end sur http://localhost:4200
+
+Ensuite dans le même dossier, lancer nodemon server qui va lancer le serveur backend sur http://localhost:3000
+
+
+
+
 
 faire un readme avec les indications pour installer l'environnement et pour le lancer !
 
